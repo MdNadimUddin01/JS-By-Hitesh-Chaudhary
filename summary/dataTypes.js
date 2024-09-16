@@ -15,9 +15,9 @@ let userEmail ;
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.table([id , anotherId]);
+// console.table([id , anotherId]);
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 const bigNumber = 3456789345689n //BigInt
 
 
@@ -34,13 +34,36 @@ let myObj = {
 
 
 const myFunction = function(){
-    console.log("Hello World")
+    // console.log("Hello World")
 }
 
-console.log(typeof bigNumber);
-console.log(typeof myFunction); // function Object
+// console.log(typeof bigNumber);
+// console.log(typeof myFunction); // function Object
 
 // Non-Primitive -> Object
 
 // Js Dynamically Type Language
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap (Non-Primitive)
+
+let myName = "Nadim"
+let anotherName = myName
+myName = "Md"
+
+
+// console.log(myName)  // "Md"
+// console.log(anotherName) // "Nadim" -> copy pass hota hai
+
+
+let userOne = {
+    name : "Nadim",
+    email : "a@gmail.com"
+}
+
+let userTwo = userOne //original value -> pass by refrence
+
+userOne.name = "Md"
+
+console.table([userOne , userTwo])// both have same output -> original value -> pass by refrence
