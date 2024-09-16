@@ -35,10 +35,42 @@ console.log(booleanIsLoggedIn) // true
 
 let someNumber = 33
 
-let stringnumber = String(stringnumber);
+let stringnumber = String(someNumber);
 console.log(stringnumber)
 console.log(typeof stringnumber) // String
 
 
+// *************************** Operations *************************************//
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2/2)
+// console.log(2**3)
+
+let str1 = "hello"
+let str2 = " Nadim"
+
+let str3 = str1 + str2;
+
+console.log(1 + "2") // 12
+console.log("1" + 2) //12
+console.log("1" + 2 + 2) // 122
+console.log(2 + 2 + "2") // 42
+
+
+console.log(true)  //true
+console.log(+true) // 1
+
+let num1 , num2 , num3
+num1 = num2 = num3 = 2 + 2 // bad practice
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter);
+
+// HA - 
+// type conversion from doc
+//  prefix and postfix from MDN
 
 
