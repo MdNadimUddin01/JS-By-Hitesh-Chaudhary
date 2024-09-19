@@ -1,6 +1,6 @@
 //array
 //resizeable
-//mix no data type
+//mix number of data type
 // array are shallow copy
 
 //shallow copy -> share same refrence
@@ -32,11 +32,11 @@ const newArr = myArr.join()
 //Slice , Splice
 
 console.log("A " , myArr)
-const myn1 = myArr.slice(3,6) //range ko include nhi karta hai original array pe no effect
+const myn1 = myArr.slice(3,6) // -> index //range ko include nhi karta hai original array pe no effect
 console.log(myn1)
 console.log("B " , myArr)
 
-const mynew2 = myArr.splice(1 ,3) //original array ko bhi effect karta hai aur range ko include karta hai
+const mynew2 = myArr.splice(1 ,3) // -> index //original array ko bhi effect karta hai aur range ko include karta hai
 console.log(mynew2)
 console.log("C " , myArr)
 

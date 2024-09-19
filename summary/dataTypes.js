@@ -13,7 +13,7 @@ const outsideTemp = null
 let userEmail ;
 //let userEmail = undefined;
 
-const id = Symbol('123')
+const id = Symbol('123') //unique number
 const anotherId = Symbol('123')
 // console.table([id , anotherId]);
 
@@ -38,7 +38,7 @@ const myFunction = function(){
 }
 
 // console.log(typeof bigNumber);
-// console.log(typeof myFunction); // function Object
+// console.log(typeof myFunction); // function -> Object
 
 // Non-Primitive -> Object
 
